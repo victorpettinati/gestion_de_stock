@@ -37,6 +37,7 @@ class BoutiqueApp(tk.Tk):
         self.product_tree.column("Prix", width=100)
         self.product_tree.column("Quantité", width=100)
         self.product_tree.column("ID Catégorie", width=100)
+        self.product_tree["show"] = "headings"
         self.product_tree.pack(side="left", fill="both", expand=True)
 
         # Barre de défilement pour Treeview
